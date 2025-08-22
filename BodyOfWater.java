@@ -26,8 +26,8 @@ public class BodyOfWater {
 
     public void printState(){
         System.out.println("Name: "+ name);
-        System.out.println("Largest Diameter: " + largestDiameter);
-        System.out.println("Average Depth: " + avgDepth);
-        System.out.println("Salt Water?" + isSaltWater);
+        System.out.println("Largest Diameter: " + largestDiameter + " miles");
+        System.out.println("Average Depth: " + avgDepth + " feet");
+        System.out.println("Salt Water? " + isSaltWater);
     }
 }
